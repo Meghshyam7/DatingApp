@@ -1,29 +1,45 @@
 ﻿<Properties StartupConfiguration="{B39D7BFE-8D5A-4BE1-A6F6-6CD969D8E773}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Entities/AppUser.cs">
     <Files>
-      <File FileName="API/Properties/launchSettings.json" />
-      <File FileName="API/Program.cs" Line="24" Column="1" />
-      <File FileName="API/Entities/AppUser.cs" />
-      <File FileName="API/Data/DataContext.cs" />
-      <File FileName="API/appsettings.json" />
-      <File FileName="API/appsettings.Development.json" />
+      <File FileName="API/Properties/launchSettings.json" Line="18" Column="47" />
+      <File FileName="API/Program.cs" Line="33" Column="1" />
+      <File FileName="API/Entities/AppUser.cs" Line="26" Column="68" />
+      <File FileName="API/Data/DataContext.cs" Line="12" Column="50" />
+      <File FileName="API/appsettings.json" Line="8" Column="22" />
+      <File FileName="API/appsettings.Development.json" Line="11" Column="12" />
       <File FileName="API/WeatherForecast.cs" />
-      <File FileName="API/Controllers/WeatherForecastController.cs" />
-      <File FileName="API/API.csproj" />
-      <File FileName="API/Data/Migrations/20240622145800_initialCreate.cs" />
-      <File FileName="API/Data/Migrations/20240622145800_initialCreate.Designer.cs" />
+      <File FileName="API/Controllers/WeatherForecastController.cs" Line="5" Column="1" />
+      <File FileName="API/API.csproj" Line="5" Column="21" />
       <File FileName="API/Data/Migrations/DataContextModelSnapshot.cs" />
-      <File FileName="API/Controllers/UsersController.cs" />
+      <File FileName="API/Controllers/UsersController.cs" Line="34" Column="30" />
+      <File FileName="API/Controllers/BaseApiController.cs" Line="10" Column="3" />
+      <File FileName="API/Controllers/AccountController.cs" Line="34" Column="72" />
+      <File FileName="API/DTOs/RegisterDto.cs" Line="10" Column="1" />
+      <File FileName="API/DTOs/LoginDto.cs" Line="12" Column="23" />
+      <File FileName="API/Interface/ITokenService.cs" Line="12" Column="1" />
+      <File FileName="API/Services/TokenService.cs" Line="22" Column="4" />
+      <File FileName="API/DTOs/UserDto.cs" Line="10" Column="2" />
+      <File FileName="API/Extensions/ApplicationServiceExtensions.cs" Line="18" Column="1" />
+      <File FileName="API/Extensions/IdentityServiceExtensions.cs" Line="14" Column="1" />
+      <File FileName="API/Controllers/BuggyController.cs" Line="45" Column="1" />
+      <File FileName="API/Errors/ApiExpection.cs" Line="14" Column="1" />
+      <File FileName="API/Middleware/ExecptionMiddleware.cs" Line="28" Column="1" />
+      <File FileName="API/Entities/Photo.cs" Line="11" Column="23" />
+      <File FileName="API/Extensions/DateTimeExtensions.cs" Line="19" Column="1" />
+      <File FileName="API/Data/UserSeedDsta.json" Line="192" Column="2" />
+      <File FileName="API/Data/Seed.cs" Line="19" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="API" expanded="True">
-            <Node name="API">
-              <Node name="Program.cs" selected="True" />
+            <Node name="API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Entities" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -33,8 +49,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
 </Properties>

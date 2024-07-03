@@ -54,15 +54,12 @@ namespace API.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UserName")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<byte[]>("passwordHash")
-                        .IsRequired()
                         .HasColumnType("BLOB");
 
                     b.Property<byte[]>("passwordSalt")
-                        .IsRequired()
                         .HasColumnType("BLOB");
 
                     b.HasKey("Id");

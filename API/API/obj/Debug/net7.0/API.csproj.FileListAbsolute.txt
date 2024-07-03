@@ -68,6 +68,7 @@
 /Users/meghshyamwagh/Desktop/Megh/learing/dot-net/DatingApp/API/API/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/meghshyamwagh/Desktop/Megh/learing/dot-net/DatingApp/API/API/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
 /Users/meghshyamwagh/Desktop/Megh/learing/dot-net/DatingApp/API/API/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-/Users/meghshyamwagh/Desktop/Megh/learing/dot-net/DatingApp/API/API/obj/Debug/net7.0/API.csproj.Up2Date
 /Users/meghshyamwagh/Desktop/Megh/learing/dot-net/DatingApp/API/API/bin/Debug/net7.0/Data/UserSeedData.json
 /Users/meghshyamwagh/Desktop/Megh/learing/dot-net/DatingApp/API/API/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/meghshyamwagh/Desktop/Megh/learing/dot-net/DatingApp/API/API/obj/Debug/net7.0/API.sourcelink.json
+/Users/meghshyamwagh/Desktop/Megh/learing/dot-net/DatingApp/API/API/obj/Debug/net7.0/API.csproj.Up2Date

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using API.Extensions;
 
 namespace API.Entities
@@ -7,11 +8,14 @@ namespace API.Entities
 	{
 		public int Id { get; set; }
 
-		public required string UserName { get; set; }
+        [Required]
+        public string UserName { get; set; }
 
-		public required byte[] passwordHash { get; set; }
+        [Required]
+        public byte[] passwordHash { get; set; }
 
-		public required byte[] passwordSalt { get; set; }
+        [Required]
+		public byte[] passwordSalt { get; set; }
 
         public DateOnly DateOfBirth { get; set; }
 
