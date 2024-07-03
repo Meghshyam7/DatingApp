@@ -2887,19 +2887,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/meghshyamwagh/.nuget/packages/": {}
+    "/home/meghshyam/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/meghshyamwagh/Desktop/Megh/learing/dot-net/DatingApp/API/API/API.csproj",
+      "projectUniqueName": "/home/meghshyam/Desktop/Company Projects/learning/DatingApp/API/API/API.csproj",
       "projectName": "API",
-      "projectPath": "/Users/meghshyamwagh/Desktop/Megh/learing/dot-net/DatingApp/API/API/API.csproj",
-      "packagesPath": "/Users/meghshyamwagh/.nuget/packages/",
-      "outputPath": "/Users/meghshyamwagh/Desktop/Megh/learing/dot-net/DatingApp/API/API/obj/",
+      "projectPath": "/home/meghshyam/Desktop/Company Projects/learning/DatingApp/API/API/API.csproj",
+      "packagesPath": "/home/meghshyam/.nuget/packages/",
+      "outputPath": "/home/meghshyam/Desktop/Company Projects/learning/DatingApp/API/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/meghshyamwagh/.nuget/NuGet/NuGet.Config"
+        "/home/meghshyam/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2917,11 +2917,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2970,7 +2965,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

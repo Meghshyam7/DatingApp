@@ -1,4 +1,3 @@
-import { NgIf } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, inject, OnInit } from '@angular/core';
 import { RegisterComponent } from "../register/register.component";
@@ -8,7 +7,7 @@ import { RegisterComponent } from "../register/register.component";
   standalone: true,
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
-  imports: [NgIf, RegisterComponent]
+  imports: [RegisterComponent]
 })
 export class HomeComponent implements OnInit {
   http = inject(HttpClient)
@@ -28,7 +27,7 @@ export class HomeComponent implements OnInit {
   }
 
   getUsers() {
-    this.http.get('https://localhost:5000/api/users').subscribe({
+    this.http.get('http://localhost:5001/api/users').subscribe({
       next: resonse => this.users = resonse,
       error: error => console.log(error),
       complete: () => console.log('Request has completed')

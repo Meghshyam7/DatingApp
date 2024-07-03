@@ -9,7 +9,7 @@ import { User } from '../_models/user';
 export class AccountService {
 
   private http = inject(HttpClient);
-  baseUrl = "https://localhost:5000/api/";
+  baseUrl = "http://localhost:5001/api/";
   currentUser = signal<User | null>(null);
 
   constructor() { }
